@@ -5,8 +5,8 @@ $instagram = new \InstagramAPI\Instagram(false, false);
 $signature = \InstagramAPI\Signatures::generateUUID();
 
 $liker = array(
-    'username' => 'kotea.ru', // Логин аккаунта 
-	'password' => 'kotea1234', // Пароль аккаунта
+    'username' => 'login', // Логин аккаунта 
+	'password' => 'password', // Пароль аккаунта
     'interval' => 5, // задержка между лайканием
     'error' => 10, // Время ожидания, если получена какая-либо ошибка
    
